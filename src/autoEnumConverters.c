@@ -1071,9 +1071,6 @@
        case CU_COMPUTEMODE_DEFAULT:
            elName = "CU_COMPUTEMODE_DEFAULT";
        break;
-       case CU_COMPUTEMODE_EXCLUSIVE:
-           elName = "CU_COMPUTEMODE_EXCLUSIVE";
-       break;
        case CU_COMPUTEMODE_PROHIBITED:
            elName = "CU_COMPUTEMODE_PROHIBITED";
        break;
