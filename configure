@@ -3349,7 +3349,7 @@ echo "nvcc = $NVCC_BIN"
 
 echo "Computing CUDA run-time version"
 $CC -o cudaVersion -I$CUDA_INC_DIR cudaVersion.c -L$CUDA_LIB_DIR -lcuda -lcudart $RPATH
-CUDA_VERSION=`cudaVersion`
+CUDA_VERSION=`./cudaVersion`
 
 
 
